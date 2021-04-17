@@ -29,6 +29,7 @@ import img24 from "../../Assets/24.JPG";
 import img25 from "../../Assets/25.jpeg";
 import img26 from "../../Assets/26.jpeg";
 import img27 from "../../Assets/27.jpeg";
+import footer from "../../Assets/loveyou.png";
 
 function Container() {
   return (
@@ -119,6 +120,8 @@ function Container() {
       <Fade bottom delay={200} distance="10vh">
         <Box image={img27} />
       </Fade>
+
+      <img src={footer} alt="footer" className="container__footer" />
     </div>
   );
 }
