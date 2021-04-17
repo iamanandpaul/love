@@ -3,6 +3,11 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+.header__love {
+  margin-top: -40px;
 }
 
 .header__contents {

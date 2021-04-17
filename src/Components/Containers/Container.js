@@ -34,11 +34,11 @@ import footer from "../../Assets/loveyou.png";
 function Container() {
   return (
     <div className="container">
-      <Fade bottom delay={400} distance="10vh">
+      <Fade bottom delay={200} distance="10vh">
         <Box image={img1} />
       </Fade>
 
-      <Fade bottom delay={600} distance="10vh">
+      <Fade bottom delay={200} distance="10vh">
         <Box image={img2} />
       </Fade>
 
